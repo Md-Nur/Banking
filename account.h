@@ -13,7 +13,7 @@ public:
         interest = 0;
         transactions = 0;
     };
-    ~account();
+    // ~account();
 
     // make a function for deposite
     void deposite(double amount)
@@ -34,7 +34,7 @@ public:
     //Make a funtion for return trunscition in main
     int getPrincipal()
     {
-        return transactions;
+        return principal;
     }
     int getTransactions()
     {

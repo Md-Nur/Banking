@@ -3,16 +3,16 @@
 /*	====	included header file	====	*/
 #include <iostream>
 #include <iomanip>
-#include <cstring>
-#include <cmath>
-#include <string>
-#include <algorithm>
-#include <fstream>
-#include <vector>
-#include <list>
-#include <map>
+// #include <cstring>
+// #include <cmath>
+// #include <string>
+// #include <algorithm>
+// #include <fstream>
+// #include <vector>
+// #include <list>
+// #include <map>
 //user define including header files
-#include "account.h"
+// #include "account.h"
 #include "account.cpp"
 /*	====	Stucture, Uninons, Predefine Marcos & namespaces	====	*/
 using namespace std;
@@ -82,7 +82,7 @@ int main()
     const int MAX_CHOICE = 7;
     account savings;
     int choice;
-    cout << fixed << showpoint << setprecision(2) << endl;
+    // cout << fixed << showpoint << setprecision(2) << endl;
     do
     {
         displayMenu();
